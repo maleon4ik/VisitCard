@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Профиль Maleon4ik_</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section id="profile">
+            <img src="content/profileAvatar.png" alt="profile avatar" class="profileAvatar clickable" height="140px" onclick="openModal('content/profileAvatar.png')">
+            <h1>Maleon4ik_</h1>
+        </section>
+        <nav id="navigation">
+            <a href="index.html" aria-current="page">Главная</a>
+            <a href="socialNetworks.html">Соцсети</a>
+            <a href="description.html">О себе</a>
+        </nav>
+    </header>
+    <main>
+        <section id="shortAboutMe">
+            <h3>О себе</h3>
+            <p>Maleon4ik_, настоящее имя Максим. На данный момент 17 лет. Изучает фронтенд.</p>
+        </section>
+        <section id="mainLinks">
+            <section id="socialNetworks">
+                <h3>Соцсети</h3>
+                <div class="cardsContainer">
+                    <a href="https://github.com/Maleon4ik" target="_blank" class="socialNetworkCard">
+                        <img src="content/gitHubLogo.svg" alt="GitHub" class="socialNetworkIcon">
+                        <div class="socialNetworkText">
+                            <h4>GitHub</h4>
+                            <p>Проектов нет... Пока что</p>
+                        </div>
+                        <p class="linkArrow">&gt;</p>
+                    </a>
+                    <a href="https://www.youtube.com/@maleon4ik_" target="_blank" class="socialNetworkCard">
+                        <img src="content/youTubeLogo.svg" alt="YouTube" class="socialNetworkIcon">
+                        <div class="socialNetworkText">
+                            <h4>YouTube</h4>
+                            <p>Призон баг &colon;)</p>
+                        </div>
+                        <p class="linkArrow">&gt;</p>
+                    </a>
+                </div>
+            </section>
+            <section id="contact">
+                <h3>Контакты</h3>
+                <div class="cardsContainer">
+                    <a href="https://t.me/Maleon4ik" target="_blank" class="socialNetworkCard">
+                        <img src="content/telegramLogo.svg" alt="Telegram" class="socialNetworkIcon">
+                        <div class="socialNetworkText">
+                            <h4>Telegram</h4>
+                            <p>Личка</p>
+                        </div>
+                        <p class="linkArrow">&gt;</p>
+                    </a>
+                    <a href="mailto::maleon4ik@gmail.com" target="_blank" class="socialNetworkCard">
+                        <img src="content/mailLogo.svg" alt="Mail" class="socialNetworkIcon">
+                        <div class="socialNetworkText">
+                            <h4>Mail</h4>
+                            <p>Почту не читаю</p>
+                        </div>
+                        <p class="linkArrow">&gt;</p>
+                    </a>
+                </div>
+            </section>
+        </section>
+    </main>
+    <div id="globalModal">
+        <span id="close">&times;</span>
+        <img id="modalImage">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
