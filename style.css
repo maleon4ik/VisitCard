@@ -76,7 +76,7 @@ article p {
 #profile h1 {
     font-family: "courier", monospace;
     font-weight: bold;
-    font-size: 4rem;
+    font-size: clamp(2.5rem, 12.5vw, 4rem);
 }
 
 /*----------------Navigation----------------*/
@@ -84,6 +84,7 @@ article p {
 #navigation {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 2rem;
 }
