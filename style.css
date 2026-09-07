@@ -15,7 +15,7 @@ html {
 body {
     box-sizing: border-box;
     width: 100%;
-    max-width: 768px;
+    max-width: 786px;
     padding-left: 25px;
     padding-right: 25px;
     padding-top: 25px;
@@ -56,7 +56,7 @@ article p {
     gap: 1rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 786px) {
     #profile {
         flex-direction: row;
         align-items: center;
@@ -128,7 +128,7 @@ article p {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 786px) {
     .cardsContainer {
         grid-template-columns: 1fr 1fr;
     }
